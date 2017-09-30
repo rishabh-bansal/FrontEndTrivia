@@ -90,7 +90,7 @@ export default function() {
 			]},
 
 
-// CSS
+/ CSS
 		{title: 'CSS', image: '../style/images/css3.svg',
 			cards: [ 
 				{q: 'What is CSS?', a: 'Cascading Style Sheets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.'
@@ -103,44 +103,43 @@ export default function() {
 				},
 				{q: 'What is Descendant Selector?', a: 'apply a style rule to a particular element only when it lies inside a particular element. As given in the following example, style rule will apply to <em> element only when it lies inside <ul> tag. \nul em {\ncolor: #000000; \n}'
 				},
-				{q: 'What is "Z-index"', a: 'The Z-index is a CSS property that sets the stacking order of elements. Elements with a greater z-index are stacked over elements with a lower z-index.'
+				{q: 'What is "Z-index"', a: 'The z-index property in CSS controls the vertical stacking order of elements that overlap. As in, which one appears as if it is physically closer to you. z-index only effects elements that have a position value other than static (the default).'
 				},
-				{q: 'What is the purpose of a pseudo-class', a: 'Pseudo-clases specify a special state for selected elements\nExample -\n div:hover { \n/** set styles for when mouse is over div */ \n}'
+				{q: 'Differentiate Class selector from ID selector?', a: 'While an overall block is given to class selector, ID selector prefers only a single element differing from other elements. In other words, ID are uniques while classes are not. Its possible that an element has both class and ID.'
 				},
-				{q: 'What is the difference between a class and an ID selector?', a: 'An id selector is used to style one specific element, but a class selector can be used to style multiple elements.'
+				{q: 'What is Pseudo-elements ?', a: 'Pseudo-elements are used to add special effects to some selectors.  CSS in used to apply styles in HTML mark-up. In some cases when extra mark-up or styling is not possible for the document, then there is a feature available in CSS known as pseudo-elements. It will allow extra mark-up to the document without disturbing the actual document.'
 				},
-				{q: 'What are pseudo elements?', a: 'Pseudo-elements are a keyword added to selectors to style specific parts of the selected elements\nExample -\n p::first-line { \n /** Style the first line of the element red */ color: #F00; \n}'
+				{q: 'What happens if 100% width is used along with floats all across the page?', a: 'While making the float declaration, 1 pixel is added every time it is used in the form of the border, and   even more float is allowed thereafter.'
 				},
-				{q: 'How can elements be fixed on the screen?', a: 'Using the property position: fixed;'
+				{q: 'Can default property value be restored through CSS? If yes, how?', a: 'n CSS, you cannot revert back to old values due to lack of default values. The property can be re- declared to get the default property.'
 				},
-				{q: 'What is the difference between an element whose position is fixed vs absolute?', a: 'A fixed position element has the position relative to the viewport. A absolutely positioned element has the position set relative to it\'s nearest positioned ancestor.'
+				{q: 'What is contextual selector?', a: 'Selector used to select special occurrences of an element is called contextual selector. A space separates the individual selectors. Only the last element of the pattern is addressed in this kind of selector. For e.g.: TD P TEXT {color: blue}'
 				},
-				{q: 'How are text or inline elements centered inside their parent element?', a: 'Using the property text-align: center'
+				{q: 'Define Image sprites with context to CSS ?', a: 'When a set of images is collaborated into one image, it is known as ‘Image Sprites’. As the loading every image on a webpage consumes time, using image sprites lessens the time taken and gives information quickly.'
 				},
-				{q: 'What is the difference between margin and padding?', a: 'Padding is the space between border and element contents, margin is the space between border and neighboring elements.'
+				{q: 'How does Z index function?', a: 'Overlapping may occur while using CSS for positioning HTML elements. Z index helps in specifying the overlapping element. It is a number which can be positive or negative, the default value being zero.'
 				},
-				{q: 'How can CSS styles be applied inline in HTML?', a: 'Using the style attribute on element tags.'
+				{q: 'Define float property of CSS?', a: 'By float property, the image can be moved to the right or the left along with the text to be wrapped around it. Elements before this property is applied do not change their properties.'
 				},
-				{q: 'How are background images set for an element?', a: 'Using background-image: url(\'path/to/image.png\')'
+				{q: 'What is graceful degradation?', a: 'In case the component fails, it will continue to work properly in the presence of a graceful degradation. The latest browser application is used when a webpage is designed. As it is not available to everyone, there is a basic functionality, which enables its use to a wider audience. In case the image is unavailable for viewing, text is shown with the alt tag.'
 				},
-				{q: 'How are CSS selectors grouped together', a: 'Using the comma (,) separator.'
+				{q: 'What is progressive enhancement?', a: 'It’s an alternative to graceful degradation, which concentrates on the matter of the web. The functionality is same, but it provides an extra edge to users having the latest bandwidth. It has been into prominent use recently with mobile internet connections expanding their base.'
 				},
-				{q: 'How can a font family be set throughout the page?', a: 'By applying the font-family property on the body tag -\nbody { \nfont-family: \'Comic Sans\'; \n}'
+				{q: 'What is Alternate Style Sheet?', a: 'Alternate Style Sheets allows the user to select the style in which the page is displayed using the view>page style menu. Through Alternate Style Sheet, user can see a multiple version of the page on their needs and preferences.'
 				},
-				{q: 'How can the style of a list be changed?', a: 'Using the property list-style-type.'
+				{q: 'Differentiate Style Sheet concept from HTML?', a: 'While HTML provides easy structure method, it lacks styling, unlike Style sheets. Moreover, style sheets have better browser capabilities and formatting options.'
 				},
-				{q: 'How are CSS stylesheets added to HTML pages?', a: 'Using the <link rel="stylesheet" href="path/to/style.css" type="text/css" />'
+				{q: 'Comment on the Case-sensitivity of CSS ?', a: 'Although, there are no case-sensitivity of CSS, nevertheless font families, URL’s of images, etc is. Only when XML declarations along with XHTML DOCTYPE are being used on the page, CSS is case -sensitive.'
 				},
-				{q: 'What tag is used to internally add CSS styles to a HTML page?', a: 'The <style> tag'
+				{q: 'Define Declaration block?', a: 'A catalog of directions within braces consisting of property, colon and value is called declaration block. e.g.: [property 1: value 3]'
 				},
-				{q: 'Which property used to change the color of text?', a: 'Using the property color'
+				{q: 'Why is it easy to insert a file by importing it?', a: 'mporting enables combining external sheets to be inserted in many sheets. Different files and sheets can be used to have different functions. Syntax: @import notation, used with <Style> tag.'
 				},
-				{q: 'How is a background image set to be fixed?', a: 'Using the property background-attachment: fixed'
+				{q: 'Differentiate logical tags from physical tags?', a: 'While physical tags are also referred to as presentational mark-up, logical tags are useless for appearances, also Physical tags are newer versions while logical tags are old and concentrate on content.'
 				},
-				{q: 'What is the difference between width: 100% and width: 100vw?', a: 'The former sets the element width as that of the parent content area, whereas the latter sets the elements width to the width of the entire viewport'
+				{q: 'Enlist the media types CSS allows? ', a: 'The design and customization of documents are rendered by media. By applying media control over the external style sheets, they can be retrieved and used by loading it from the network.'
 				}
 			]},
-
 // HTML
 
 		{title: 'HTML', image: '../style/images/html5.png',
